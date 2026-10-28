@@ -1,0 +1,12 @@
+[Unit]
+Description=Daemon de surveillance
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/surveillance
+Restart=always
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

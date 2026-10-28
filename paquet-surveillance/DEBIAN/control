@@ -1,0 +1,6 @@
+Package: surveillance
+Version: 1.0
+Architecture: amd64
+Maintainer: Prenom Nom <prenom.nom@laplateforme.io>
+Description: Un daemon de surveillance en persistance avec systemd
+ Un service minimaliste illustrant le vecteur supply chain T1543.002.

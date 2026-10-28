@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+systemctl daemon-reload
+systemctl enable surveillance.service
+systemctl start surveillance.service
+
+echo "Installation réussie : surveillance est actif."
